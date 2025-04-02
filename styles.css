@@ -57,3 +57,35 @@ footer {
   text-decoration: none;
   color: #393e46;
 }
+
+button {
+  background-color: #083d56;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 15px;
+
+  box-shadow: 10px 10px 10px gray;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: #eaf6f6;
+  color: #393e46;
+  cursor: pointer;
+}
+
+.dark {
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  color: white;
+}
+.dark #container {
+  background: #f7f7f7;
+  color: #142d4c;
+}
